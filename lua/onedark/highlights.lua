@@ -208,7 +208,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@variable"] = {fg = c.fg, fmt = cfg.code_style.variables},
         ["@variable.builtin"] = {fg = c.red, fmt = cfg.code_style.variables},
         ["@variable.member"] = colors.Cyan,
-        ["@variable.parameter"] = colors.Red,
+        ["@variable.parameter"] = colors.White,
         ["@markup.heading.1.markdown"] = {fg = c.red, fmt = "bold"},
         ["@markup.heading.2.markdown"] = {fg = c.purple, fmt = "bold"},
         ["@markup.heading.3.markdown"] = {fg = c.orange, fmt = "bold"},
